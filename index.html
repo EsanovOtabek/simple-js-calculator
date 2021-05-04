@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uz" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <div class="calc">
+      <div class="col">
+        <h2>Calculator</h2>
+        <input type="text" disabled name="result" id="result" placeholder="0" value="">
+        <div class="btns">
+          <button type="button" class="ltr" onclick="calC('%')"> % </button>
+          <button type="button" onclick="calC('x2')"> x<sup>2</sup></button>
+          <button type="button" onclick="clearC()"> AC </button>
+          <button type="button" class="trr" onclick="clC()"> <= </button>
+
+          <button type="button" onclick="calC('+-')"> +/- </button>
+          <button type="button" onclick="calC('1/x')"> 1/x </button>
+          <button type="button" onclick="calC('//')"> /x </button>
+          <button type="button" onclick="amalC('/')"> / </button>
+
+          <button type="button" onclick="getC(7)"> 7 </button>
+          <button type="button" onclick="getC(8)"> 8 </button>
+          <button type="button" onclick="getC(9)"> 9 </button>
+          <button type="button" onclick="amalC('*')"> * </button>
+
+          <button type="button" onclick="getC(4)"> 4 </button>
+          <button type="button" onclick="getC(5)"> 5 </button>
+          <button type="button" onclick="getC(6)"> 6 </button>
+          <button type="button" onclick="amalC('-')"> - </button>
+
+          <button type="button" onclick="getC(1)"> 1 </button>
+          <button type="button" onclick="getC(2)"> 2 </button>
+          <button type="button" onclick="getC(3)"> 3 </button>
+          <button type="button" onclick="amalC('+')"> + </button>
+
+          <button type="button" class="blr" onclick="getC('00')"> 00 </button>
+          <button type="button" onclick="getC(0)"> 0 </button>
+          <button type="button" onclick="getC('.')"> . </button>
+          <button type="button" class="rbr" onclick="resC()"> = </button>
+        </div>
+        <h4>&copy;Copyright 2020. Made with <a href="http://t.me/beootabek">LifePC</a></h4>
+      </div>
+    </div>
+
+  </body>
+    <script src="js/script.js"></script>
+</html>
